@@ -1,22 +1,17 @@
-# koa-gzip-middleware
+# koa-cookie-cipher-middleware
 
-> simple gzip middleware for koa2.
-
-> if request  headers support gzip or deflate and response content length is bigger than 20.
-
-> koa-gzip-middleware would gzip the response body data syncronously
+> simple cookie cipher middleware for koa2.
 
 ## Installation
 
 ```bash
-    npm install koa-gzip-middleware
+    npm install koa-cookie-cipher-middleware
 ```
 
 ## Usage
 ```bash
-    const GZIP = require('koa-gzip-middleware');
-    const Koa = require('koa');
-    Koa.use(GZIP)
+    const Cipher = require('koa-cookie-cipher-middleware');
+
 ```
 
 ## Author
