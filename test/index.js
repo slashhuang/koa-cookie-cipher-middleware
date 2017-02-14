@@ -6,7 +6,7 @@
 //https://github.com/remy/nodemon/blob/master/doc/requireable.md
 const nodemon = require('nodemon');
 nodemon({
-  script: `${__dirname}/gzip.test.js`,
+  script: `${__dirname}/test.js`,
   ext: 'js json',
   execMap: {
         'js': 'babel-node'
