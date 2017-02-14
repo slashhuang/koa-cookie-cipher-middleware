@@ -2,7 +2,7 @@
   "name": "cookie-cipher",
   "version": "1.0.0",
   "description": "a nodejs cookie cipher using openssl aes192 algorithm",
-  "main": "src/gzip.js",
+  "main": "src/cipher.js",
   "scripts": {
     "test": "babel-node ./test/index.js",
     "common": "babel-node ./test/index.js"
