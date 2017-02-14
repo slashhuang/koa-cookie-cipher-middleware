@@ -1,7 +1,7 @@
 {
-  "name": "koa-gzip-middleware",
+  "name": "cookie-cipher",
   "version": "1.0.0",
-  "description": "a gzip middleware for koa",
+  "description": "a nodejs cookie cipher using openssl aes192 algorithm",
   "main": "src/gzip.js",
   "scripts": {
     "test": "babel-node ./test/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slashhuang/koa-gzip-middleware.git"
+    "url": "git+https://github.com/slashhuang/cookie-cipher.git"
   },
   "keywords": [
     "koa",
@@ -19,9 +19,9 @@
   "author": "slashhuang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/slashhuang/koa-gzip-middleware/issues"
+    "url": "https://github.com/slashhuang/cookie-cipher/issues"
   },
-  "homepage": "https://github.com/slashhuang/koa-gzip-middleware#readme",
+  "homepage": "https://github.com/slashhuang/cookie-cipher#readme",
   "dependencies": {
     "koa": "^2.0.0"
   },
