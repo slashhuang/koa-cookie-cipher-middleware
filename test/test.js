@@ -11,8 +11,13 @@ const Compose = require('koa-compose');
 const app = new Koa();
 const Cipher = require('../src/cipher');
 let PORT = 3000;
-
-const MiddlewareArr = [ Cipher ];
+const TestMiddleware = async function(ctx,next) {
+    let cookieCipher = await ctx.cookie_decoder.cipher('slashhuang')
+    console.log(`cipher cookie is ${cookieCipher}`);
+    let cookieDecipher = await ctx.cookie_decoder.decipher('slashhuang');
+    console.log(`decipher cookie is ${cookieDecipher}`);
+}
+const MiddlewareArr = [ Cipher,TestMiddleware ];
 app.use(Compose(MiddlewareArr));
 app.listen(PORT);
 console.log(`server listening on port ${PORT}`)

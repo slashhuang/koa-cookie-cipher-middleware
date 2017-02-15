@@ -4,7 +4,8 @@
   "description": "a nodejs cookie cipher using openssl aes192 algorithm",
   "main": "src/cipher.js",
   "scripts": {
-    "test": "babel-node ./test/index.js"
+    "test": "babel-node ./test/index.js",
+    "cookie": "babel-node ./test/cookie.js"
   },
   "repository": {
     "type": "git",

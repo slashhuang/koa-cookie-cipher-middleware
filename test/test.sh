@@ -1,1 +1,0 @@
-curl --cookie slashhuang 'slashhuang'
