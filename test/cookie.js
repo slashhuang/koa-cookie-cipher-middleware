@@ -1,3 +1,3 @@
 
 var exec = require('child_process').exec;
-exec(`curl --cookie 'slashhuang=1f41f2a9f8b953043307f12213b0e0cd' localhost:3000 -v`)
+exec(`curl --cookie 'slashhuang=b86fc9ca13dd2d1da5b12842056a9b42' localhost:3000 -v`)
