@@ -1,5 +1,5 @@
 {
-  "name": "cookie-cipher",
+  "name": "koa-cookie-cipher-middleware",
   "version": "1.0.0",
   "description": "a nodejs cookie cipher using openssl aes192 algorithm",
   "main": "src/cipher.js",
